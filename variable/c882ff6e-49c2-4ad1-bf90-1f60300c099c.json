@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-03T06:34:48.977Z",
+  "updatedAt": "2025-11-03T11:55:37.480139Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "c882ff6e-49c2-4ad1-bf90-1f60300c099c",
+  "name": "hsgdvc",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "boolean",
+  "value": {
+   "data": false
+  }
+ }
+}
