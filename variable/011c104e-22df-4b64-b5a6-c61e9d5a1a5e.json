@@ -1,8 +1,8 @@
 {
  "entityType": "variable",
  "data": {
-  "createdAt": "2025-11-03T06:34:48.977Z",
-  "updatedAt": "2025-11-03T11:55:37.480139Z",
+  "createdAt": "2025-11-03T18:55:57.719Z",
+  "updatedAt": "2025-11-03T18:55:57.719Z",
   "isDeleted": false,
   "commitId": "",
   "status": "",
@@ -11,13 +11,13 @@
   "commitInfo": {
    "timeStamp": "0001-01-01T00:00:00Z"
   },
-  "entityId": "c882ff6e-49c2-4ad1-bf90-1f60300c099c",
-  "name": "hsgdvc",
+  "entityId": "011c104e-22df-4b64-b5a6-c61e9d5a1a5b",
+  "name": "Subhanshu",
   "category": "globalVar",
   "scope": "workspace",
-  "dataType": "boolean",
+  "dataType": "string",
   "value": {
-   "data": false
+   "data": "Subhanshu"
   }
  }
 }
