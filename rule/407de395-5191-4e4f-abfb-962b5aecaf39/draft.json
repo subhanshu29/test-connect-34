@@ -3,14 +3,14 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-04T10:21:11.702Z",
-  "updatedAt": "2025-11-06T06:46:43.375112Z",
+  "updatedAt": "2025-11-06T11:50:20.553392Z",
   "isDeleted": false,
-  "testedAt": "2025-11-06T06:46:27.531Z",
+  "testedAt": "2025-11-06T11:50:20.552Z",
   "publishedAt": "2025-11-06T06:46:31.653Z",
   "entityId": "407de395-5191-4e4f-abfb-962b5aecaf39",
   "name": "t2",
   "commitId": "commit-276dda50-2ce5-4c06-9186-c75b59088044",
-  "status": "draft",
+  "status": "tested",
   "lastVersion": "0.10",
   "isLive": false,
   "commitInfo": {
@@ -24,17 +24,12 @@
     }
    },
    "properties": {
-    "rule_03": {
-     "nextId": "param_AEYiXT",
-     "type": "simpleCondition"
-    },
     "param_AEYiXT": {
-     "prevId": "rule_03",
      "type": "simpleCondition"
     }
    },
    "firstRow": "rule_01",
-   "firstProperty": "rule_03"
+   "firstProperty": "param_AEYiXT"
   },
   "action": {
    "then": {
@@ -50,48 +45,25 @@
      "operator": "and",
      "nodeType": "group",
      "children": [
-      "rule_02",
       "c_iVxbcC"
      ],
      "siblingIndex": 1
     },
-    "rule_02": {
+    "c_iVxbcC": {
      "value": "",
      "operator": "any",
-     "dataType": "string",
-     "nodeType": "condition",
-     "parent": "rule_01",
-     "leftNode": [
-      "rule_03"
-     ],
-     "siblingIndex": 1
-    },
-    "rule_03": {
-     "sourceType": "globalVar",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "Subhanshu",
-     "siblingIndex": 1
-    },
-    "c_iVxbcC": {
+     "dataType": "boolean",
      "nodeType": "condition",
      "parent": "rule_01",
      "leftNode": [
       "param_AEYiXT"
-     ],
-     "rightNode": [
-      "rhs_5NzMuE"
-     ],
-     "siblingIndex": 1
-    },
-    "rhs_5NzMuE": {
-     "value": "",
-     "nodeType": "constant",
-     "parent": "c_iVxbcC",
-     "siblingIndex": 1
+     ]
     },
     "param_AEYiXT": {
+     "sourceType": "globalVar",
+     "dataType": "boolean",
      "nodeType": "params",
+     "attribute": "remoteCreated",
      "siblingIndex": 1
     }
    }
@@ -126,13 +98,13 @@
    "entityType": "rule",
    "entityId": "407de395-5191-4e4f-abfb-962b5aecaf39",
    "entityVersion": "draft",
-   "entityNodeId": "Subhanshu",
+   "entityNodeId": "remoteCreated",
    "dependencyType": "variable",
-   "dependencyId": "011c104e-22df-4b64-b5a6-c61e9d5a1a5b",
+   "dependencyId": "c882ff6e-49c2-4ad1-bf90-1f60300c099e",
    "dependencyVersion": "live",
    "isDeleted": false,
-   "createdAt": "2025-11-06T06:46:40.584817Z",
-   "updatedAt": "2025-11-06T06:46:43.383368Z"
+   "createdAt": "2025-11-06T11:50:18.946234Z",
+   "updatedAt": "2025-11-06T11:50:18.946234Z"
   }
  ]
 }
