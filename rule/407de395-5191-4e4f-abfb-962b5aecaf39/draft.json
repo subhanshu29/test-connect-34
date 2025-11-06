@@ -3,19 +3,19 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-04T10:21:11.702Z",
-  "updatedAt": "2025-11-04T10:21:11.702Z",
+  "updatedAt": "2025-11-06T06:46:43.375112Z",
   "isDeleted": false,
-  "testedAt": "0001-01-01T00:00:00Z",
-  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "2025-11-06T06:46:27.531Z",
+  "publishedAt": "2025-11-06T06:46:31.653Z",
   "entityId": "407de395-5191-4e4f-abfb-962b5aecaf39",
   "name": "t2",
-  "commitId": "commit-6fd6d2e3-3290-4a41-8914-1f52b08ba409",
+  "commitId": "commit-276dda50-2ce5-4c06-9186-c75b59088044",
   "status": "draft",
-  "lastVersion": "",
+  "lastVersion": "0.10",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2025-11-04 10:21:11",
-   "timeStamp": "2025-11-04T10:21:11.70244Z"
+   "title": "Forked from 0.10",
+   "timeStamp": "2025-11-06T06:46:40.573166Z"
   },
   "decisionTable": {
    "rows": {
@@ -25,13 +25,12 @@
    },
    "properties": {
     "rule_03": {
+     "nextId": "param_AEYiXT",
      "type": "simpleCondition"
-    }
-   },
-   "results": {
-    "result_01": {
-     "dataType": "string",
-     "keyName": "keyName"
+    },
+    "param_AEYiXT": {
+     "prevId": "rule_03",
+     "type": "simpleCondition"
     }
    },
    "firstRow": "rule_01",
@@ -51,38 +50,57 @@
      "operator": "and",
      "nodeType": "group",
      "children": [
-      "rule_02"
+      "rule_02",
+      "c_iVxbcC"
      ],
      "siblingIndex": 1
     },
     "rule_02": {
+     "value": "",
+     "operator": "any",
+     "dataType": "string",
      "nodeType": "condition",
      "parent": "rule_01",
      "leftNode": [
       "rule_03"
      ],
-     "rightNode": [
-      "rule_04"
-     ],
      "siblingIndex": 1
     },
     "rule_03": {
+     "sourceType": "globalVar",
+     "dataType": "string",
      "nodeType": "params",
+     "attribute": "Subhanshu",
      "siblingIndex": 1
     },
-    "rule_04": {
+    "c_iVxbcC": {
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "param_AEYiXT"
+     ],
+     "rightNode": [
+      "rhs_5NzMuE"
+     ],
+     "siblingIndex": 1
+    },
+    "rhs_5NzMuE": {
      "value": "",
      "nodeType": "constant",
-     "parent": "rule_02",
+     "parent": "c_iVxbcC",
+     "siblingIndex": 1
+    },
+    "param_AEYiXT": {
+     "nodeType": "params",
      "siblingIndex": 1
     }
-   },
-   "startNode": "rule_01"
+   }
   },
   "description": "",
   "policy": "first",
   "version": "draft",
   "type": "decisionTable",
+  "dataSetId": "",
   "settings": {
    "api": {
     "isEnabled": true,
@@ -93,12 +111,28 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
-   }
+   },
+   "dateFormat": "in"
   },
   "isDemo": false,
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-276dda50-2ce5-4c06-9186-c75b59088044",
+   "entityType": "rule",
+   "entityId": "407de395-5191-4e4f-abfb-962b5aecaf39",
+   "entityVersion": "draft",
+   "entityNodeId": "Subhanshu",
+   "dependencyType": "variable",
+   "dependencyId": "011c104e-22df-4b64-b5a6-c61e9d5a1a5b",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-06T06:46:40.584817Z",
+   "updatedAt": "2025-11-06T06:46:43.383368Z"
+  }
+ ]
 }
