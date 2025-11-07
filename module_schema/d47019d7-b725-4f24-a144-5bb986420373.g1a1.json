@@ -1,0 +1,24 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2025-11-06T09:25:51.453Z",
+  "updatedAt": "2025-11-06T18:13:52.913992Z",
+  "isDeleted": false,
+  "entityId": "d47019d7-b725-4f24-a144-5bb986420373",
+  "name": "g1a1",
+  "moduleId": "be2c43bb-b5d4-4168-9fc8-7097040c185e",
+  "dataType": "string",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": "Subhanshu"
+   },
+   {
+    "value": "Subhanshu1"
+   },
+   {
+    "value": "Subhanshu2"
+   }
+  ]
+ }
+}

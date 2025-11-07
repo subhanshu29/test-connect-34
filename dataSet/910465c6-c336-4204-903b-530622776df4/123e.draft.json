@@ -1,0 +1,47 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2025-11-06T13:02:40.483Z",
+  "updatedAt": "2025-11-07T09:32:24.308057Z",
+  "isDeleted": false,
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "0001-01-01T00:00:00Z",
+  "entityId": "910465c6-c336-4204-903b-530622776df4",
+  "name": "123e",
+  "commitId": "commit-58932b2d-5ea7-4cf7-b452-2decf49de29f",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-06 13:02:40",
+   "timeStamp": "2025-11-06T13:02:40.482007Z"
+  },
+  "version": "draft",
+  "connectorId": "4b26a753-50ab-4f56-bbc4-aec87e1945f8",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-58932b2d-5ea7-4cf7-b452-2decf49de29f",
+   "entityType": "dataSet",
+   "entityId": "910465c6-c336-4204-903b-530622776df4",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "4b26a753-50ab-4f56-bbc4-aec87e1945f8",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-06T13:02:40.491481Z",
+   "updatedAt": "2025-11-07T09:32:24.313456Z"
+  }
+ ]
+}

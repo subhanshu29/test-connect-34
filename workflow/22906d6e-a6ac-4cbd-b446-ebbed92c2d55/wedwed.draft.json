@@ -1,0 +1,88 @@
+{
+ "entityType": "workflow",
+ "data": {
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "createdAt": "2025-11-06T11:53:53.837Z",
+  "updatedAt": "2025-11-07T07:03:55.180327Z",
+  "isDeleted": false,
+  "entityId": "22906d6e-a6ac-4cbd-b446-ebbed92c2d55",
+  "name": "wedwed",
+  "commitId": "commit-5b4111b0-63ab-4bc8-8d85-a6d24f07af10",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-06 11:53:53",
+   "timeStamp": "2025-11-06T11:53:53.837747Z"
+  },
+  "startNode": "n_opCU2T",
+  "version": "draft",
+  "description": "",
+  "trigger": {
+   
+  },
+  "nodes": [
+   {
+    "position": {
+     "x": 700.796875,
+     "y": 0
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "1",
+    "type": "trigger",
+    "data": {
+     "settings": {
+      "authType": "private",
+      "isEnabled": true
+     },
+     "nodeType": "apiTrigger",
+     "name": "Trigger",
+     "runInLoop": {
+      
+     },
+     "blockName": "trigger",
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   },
+   {
+    "position": {
+     "x": 700.796875,
+     "y": 130
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_ZZ36D1",
+    "type": "addNode",
+    "data": {
+     "nodeType": "addNodeMd",
+     "runInLoop": {
+      
+     },
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   }
+  ],
+  "edges": [
+   {
+    "style": {
+     "strokeWidth": 1,
+     "stroke": "gray"
+    },
+    "id": "e_1vFauc",
+    "source": "1",
+    "target": "n_ZZ36D1",
+    "data": {
+     "edgeType": "then"
+    },
+    "type": "smoothEdge"
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   
+  },
+  "isDemo": false
+ }
+}
