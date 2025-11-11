@@ -4,7 +4,7 @@
   "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "createdAt": "2025-11-06T11:53:53.837Z",
-  "updatedAt": "2025-11-07T07:03:55.180327Z",
+  "updatedAt": "2025-11-11T07:44:08.451129Z",
   "isDeleted": false,
   "entityId": "22906d6e-a6ac-4cbd-b446-ebbed92c2d55",
   "name": "wedwed",
@@ -16,7 +16,7 @@
    "title": "Created at 2025-11-06 11:53:53",
    "timeStamp": "2025-11-06T11:53:53.837747Z"
   },
-  "startNode": "n_opCU2T",
+  "startNode": "n_VA0FkL",
   "version": "draft",
   "description": "",
   "trigger": {
@@ -34,8 +34,8 @@
     "type": "trigger",
     "data": {
      "settings": {
-      "authType": "private",
-      "isEnabled": true
+      "isEnabled": true,
+      "authType": "private"
      },
      "nodeType": "apiTrigger",
      "name": "Trigger",
@@ -62,17 +62,86 @@
      },
      "testedAt": "0001-01-01T00:00:00Z"
     }
+   },
+   {
+    "position": {
+     "x": 700.796875,
+     "y": 205
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_VA0FkL",
+    "type": "workflowNode",
+    "data": {
+     "settings": {
+      "timeout": 10,
+      "timeoutAsync": 20,
+      "errorContinue": false
+     },
+     "nodeType": "workflowNode",
+     "entity": "workflow",
+     "entityId": "22906d6e-a6ac-4cbd-b446-ebbed92c2d55",
+     "name": "wedwed",
+     "runInLoop": {
+      
+     },
+     "blockName": "workflow",
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   },
+   {
+    "position": {
+     "x": 700.796875,
+     "y": 335
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_yxPPZU",
+    "type": "addNode",
+    "data": {
+     "nodeType": "addNodeMd",
+     "runInLoop": {
+      
+     },
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
    }
   ],
   "edges": [
    {
     "style": {
-     "strokeWidth": 1,
-     "stroke": "gray"
+     "stroke": "gray",
+     "strokeWidth": 1
     },
     "id": "e_1vFauc",
     "source": "1",
     "target": "n_ZZ36D1",
+    "data": {
+     "edgeType": "then"
+    },
+    "type": "smoothEdge"
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_AqskDP",
+    "source": "n_VA0FkL",
+    "target": "n_yxPPZU",
+    "data": {
+     "edgeType": "then"
+    },
+    "type": "smoothEdge"
+   },
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_GkKIs8",
+    "source": "n_ZZ36D1",
+    "target": "n_VA0FkL",
     "data": {
      "edgeType": "then"
     },
@@ -84,5 +153,20 @@
    
   },
   "isDemo": false
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-5b4111b0-63ab-4bc8-8d85-a6d24f07af10",
+   "entityType": "workflow",
+   "entityId": "22906d6e-a6ac-4cbd-b446-ebbed92c2d55",
+   "entityVersion": "draft",
+   "entityNodeId": "n_VA0FkL",
+   "dependencyType": "workflow",
+   "dependencyId": "22906d6e-a6ac-4cbd-b446-ebbed92c2d55",
+   "dependencyVersion": "draft",
+   "isDeleted": false,
+   "createdAt": "2025-11-11T07:44:08.460661Z",
+   "updatedAt": "2025-11-11T07:44:08.460661Z"
+  }
+ ]
 }
